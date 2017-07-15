@@ -4,10 +4,12 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { PadreAltaComponent } from './padre-alta/padre-alta.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PadreAltaComponent
   ],
   imports: [
     BrowserModule,
